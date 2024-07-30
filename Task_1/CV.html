@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .photo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            width: 80%; /* Adjust the width as needed */
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="photo">
+    <img src="foto.jpg" alt="Моя фотография">
+</div>
+<h1>Maksym Derbenov</h1>
+<div class="contact-info">
+    <p>Email: <a href="mailto:example@example.com">example@example.com</a> | +123456789 | Kiev</p>
+</div>
+<div class="container-wrapper">
+    <div class="container">
+        <div class="column">
+            <h2>Навички</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+            </ul>
+            <p>Содержимое левой колонки.</p>
+        </div>
+        <div class="column">
+            <h2>Правая колонка</h2>
+            <p>Содержимое правой колонки.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
